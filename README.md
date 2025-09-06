@@ -1,2 +1,2 @@
 # Sales-Data-Wrangling-and-Predictive-Modeling
- Sales Data Wrangling and Predictive Modeling
+This project demonstrates a complete workflow for sales data wrangling and predictive modeling. Using Python (pandas, NumPy, scikit-learn) and SQL, the pipeline cleans and preprocesses a dataset of 50,000+ sales records by removing duplicates, imputing missing values, and normalizing features. It then trains a multiple linear regression model to predict monthly revenue based on ad spend, demographics, and seasonal effects, achieving an R² of ~0.85. Diagnostic plots (heatmaps, actual vs predicted, residuals, QQ plot) and serialized outputs (Parquet, JSON metrics, model pickle) make this a reproducible, production-style example of applied data science.
